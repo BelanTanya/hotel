@@ -1,0 +1,131 @@
+
+.order_container, .adress_pay, .check_box  {
+    display: flex;
+}
+.order_adress {
+    margin-right: 20px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    max-height: 550px;
+}
+.adress_box, .check_wrapper {
+    padding: 20px;
+}
+
+.adress_sreet input{
+    width: 97%;
+}
+
+.adress_sreet input, .adress_home input, select{
+    border: 1px solid #E0E0E0;
+    border-radius: 7px;
+    height: 40px;
+    margin-bottom: 10px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.adress_home input{
+    width: 30%;
+}
+
+select{
+    width: 49%;
+}
+
+.adress_online, .adress_cash {
+    border: 2px solid #FBDF0F;
+    border-radius: 7px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adress_online p, .adress_cash p{
+    padding: 0px 5px;
+    font-size: 15px;
+}
+
+
+.adress_online {
+    margin-right: 10px;
+}
+
+.order_check {
+    background: #F5F5F5;
+    border-radius: 10px;
+}
+
+.check_box {
+    padding: 20px 0px;
+    border-bottom: 1px solid #e0e0e0bd;
+    border-top: 1px solid #e0e0e0bd;
+}
+.box_img img{
+    border-radius: 10px;
+    max-width: 80px;
+    max-height: 80px;
+}
+.box_name {
+    padding-left: 20px;
+    width: 250px;
+}
+
+.order_btn{
+    font-weight: 500;
+    font-size: 16px;
+    background: #FBDF0F;
+    border-radius: 7px;
+    padding: 13px 0px;
+    width: 95%;
+    cursor: pointer;
+}
+
+.order_btn:hover{
+    background: #edd30ce1;
+}
+
+.order_btn:active{
+    background: #f4ff25;
+    border-color: #f4ff25;
+}
+
+.reg-btn {
+    font-size: 20px;
+    color: rgba(223, 10, 10, 0.959);
+}
+
+.login{
+    padding: 50px 20%;
+}
+
+.admin_form{
+    padding-bottom: 20px;
+}
+
+.krest{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .order_container, .adress_pay{
+        display: block;
+    }
+
+    .order_adress {
+        max-height: 700px;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .adress_online {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .box_out{
+        margin-left: 25%;
+    }
+}
